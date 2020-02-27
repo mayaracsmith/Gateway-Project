@@ -1,0 +1,109 @@
+* {
+  font-family: "Gelasio", serif;
+}
+
+header {
+  text-align: right;
+  padding-right: 1%;
+}
+
+a {
+  color: #555555;
+  text-decoration: none;
+}
+a:visited {
+  color: #555555;
+}
+a:hover {
+  color: grey;
+}
+
+body {
+  margin: 0;
+  background-color: #f4f4f4;
+  background-size: cover;
+  color: #555555;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+.nav {
+  text-align: right;
+  padding-right: 1%;
+  color: #555555;
+}
+
+.nav li{
+  list-style-type: none;
+  display: inline;
+  margin-left: 0.5%;
+}
+
+.myform {
+  padding: 20px;
+}
+
+textarea {
+  width: 50%;
+  height: 100px;
+}
+
+.spacing label {
+  display: block;
+}
+
+.spacing {
+  padding-bottom: 15px;
+}
+
+.spacing input {
+  padding: 8px;
+  width: 50%;
+}
+
+.radio {
+  padding-bottom: 20px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+button {
+  background-color: #555555;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+}
+
+img {
+  position: fixed;
+  top: 30%;
+  right: 4%;
+  width: 20%;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  color: #555555;
+  font-size: 1.5em;
+}
+
+.divider {
+  margin: 0 25px;
+}
+
+footer {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0 25px 0;
+  color: #555555;
+  width: 100%;
+}
